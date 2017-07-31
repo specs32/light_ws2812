@@ -50,8 +50,8 @@
 	#define OFFSET_W(w) w+offsetWhite
 #else
 // CHANGE YOUR STATIC RGB ORDER HERE
-	#define OFFSET_R(r) r+1
-	#define OFFSET_G(g) g	
+	#define OFFSET_R(r) r
+	#define OFFSET_G(g) g+1	
 	#define OFFSET_B(b) b+2
 	#define OFFSET_W(w) w+3	
 #endif

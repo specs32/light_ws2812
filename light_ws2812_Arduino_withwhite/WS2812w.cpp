@@ -107,9 +107,9 @@ void WS2812W::setColorOrderRGBW() {
 }
 
 void WS2812W::setColorOrderGRBW() {
-	offsetBlue = 0;
+	offsetBlue = 2;
 	offsetRed = 1;
-	offsetGreen = 2;
+	offsetGreen = 0;
 	offsetWhite = 3;
 }
 
